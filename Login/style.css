@@ -26,12 +26,118 @@ body{
     letter-spacing: 2.8px;
     color: #FFFFFF;
 
+}
 
+.rectangle3_username{
+    position: absolute;
+    left: 22.92%;
+    right: 27.17%;
+    top: 19.3%;
+    bottom: 75.62%;
+
+    border: 1px solid #8F8F8F;
+    box-sizing: border-box;
+    border-radius: 8px;
 
 
 }
 
+.rectangle3_password{
+    position: absolute;
+    left: 22.92%;
+    right: 27.17%;
+    top: 27.3%;
+    bottom: 67.62%;
+
+    border: 1px solid #8F8F8F;
+    box-sizing: border-box;
+    border-radius: 8px;
 
 
+}
+.rectangle8_username{
+    position: absolute;
+    left: 0%;
+    right: 88%;
+    top: 0%;
+    bottom: 0%;
+    /* padding-bottom: 10px; */
+    border-right: 1px solid #8F8F8F;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+
+
+}
+.rectangle8_password{
+    position: absolute;
+    left: 0%;
+    right: 88%;
+    top: 0%;
+    bottom: 0%;
+    /* padding-bottom: 10px; */
+    border-right: 1px solid #8F8F8F;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+
+
+}
+.username{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    width: 550%;
+    /* identical to box height */
+    color: #8F8F8F;
+    background-color: rgba(255, 0, 0, 0);
+    border-color: rgba(255, 0, 0, 0);
+}
+.username_container{
+    position: absolute;
+    left: 13%;
+    right: 63.4%;
+    top: 10%;
+}
+
+.password_container{
+    position: absolute;
+    left: 13%;
+    right: 63.4%;
+    top: 10%;
+}
+.vector1{
+    position: absolute;
+    left: 24.03%;
+    right: 74.58%;
+    top: 18.86%;
+    bottom: 67.19%;
+
+}
+.vector2{
+    position: absolute;
+    left: 24.03%;
+    right: 74.58%;
+    top: 31.86%;
+    bottom: 67.19%;
+
+}
+.vector3{
+    position: absolute;
+    left: 90.03%;
+    right: 25.58%;
+    top: 31.86%;
+    bottom: 67.19%;
+
+}
+
+.vector4{
+    position: absolute;
+    left: 91.858%;
+    right: 26.5%;
+    top: 40.10%;
+    bottom: 65%;
+
+}
 
 

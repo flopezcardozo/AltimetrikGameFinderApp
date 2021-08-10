@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameFinder</title>
+    <script type="text/javascript" src="js/login.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Slider-->
+    <link rel="stylesheet" href="css/slider.css" />
+
+</head>
+<body>
+    
+    <div id="bg-box">
+        <div class="form-container">
+            <div id ="titulo-bg">
+                <img class="header-img" src="assets/imagenes/GAMEFINDER.png" name="GameFinder"/>
+            </div>
+            <form name="login-form" action="#" onsubmit="return validateForm()">
+                <div class="rectangle3_username">
+                    <div class="rectangle8_username" >
+                    </div>
+                    <div  class="username_container">
+                        <input type="text" name="username" placeholder="nombre de usuario o email" class="username">
+                    </div>
+                </div>
+                <div class="rectangle3_password">
+                    <div class="rectangle8_password">                        
+                    </div>
+                    <div  class="password_container">
+                        <input type="password" name="password" placeholder="password" class="username">
+                        
+                    </div>
+                    <div class="password_container_eye">
+                    </div> 
+                </div>
+                <div class="remember-and-submit-container">
+                    <div class="remember-container">  
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember" class="remember-label">Remember me</label>
+                    </div>
+                    <div style="width: 50%;height: 35px;">
+                        <input class="submit-button" type="submit" value="LOGIN">
+                    </div>
+                </div>
+                <div class="forgot-container">
+                    <a href="#">Register now</a>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <div class="line-container">
+                    <hr>
+                    <label style="color: white; font-size: 14;">or</label>
+                    <hr>
+                </div>
+
+                <div class="social-media-buttons-container">
+                    <a href="#" class="fb btn">
+                        <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                      </a>
+                      <a href="#" class="twitter btn">
+                        <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                      </a>
+                      <a href="#" class="google btn">
+                        <i class="fa fa-google fa-fw"></i> Login with Google
+                      </a>
+
+                </div>
+                <!--
+                <img src="assets/IconosLogin/Vector2.svg" alt="Vector">
+                -->
+            </form>
+        </div>
+        <!-- Slider -->
+        <div class="slider">
+            <!-- Slideshow container -->
+            <div id="slideshow-container" class="slideshow-container">
+
+                <!-- Full-width images with number and caption text 
+                <div class="mySlides fade">
+                <img src="assets/games/biomutant.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                <img src="assets/games/bloodlines2.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                <img src="assets/games/dyinglight2.jpg" style="width:100%">
+                </div>
+                -->
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/slider.js"></script>
+
+</body>
+</html>

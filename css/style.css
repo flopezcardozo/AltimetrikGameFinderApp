@@ -1,5 +1,4 @@
 body{
-    overflow: hidden;
     width: 100vw;
     height: 100vh;
     background: #141414;
@@ -271,6 +270,7 @@ hr{
     height: 1px;
     background: white;
     float: left;
+    border: none;
 }
 
 /* Social media buttons*/

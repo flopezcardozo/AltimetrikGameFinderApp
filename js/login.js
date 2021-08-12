@@ -5,6 +5,7 @@ function validateForm() {
       alert("There is empty values");
       return false;
     }else{
+      
         alert("Successfully logged")
     }
   }

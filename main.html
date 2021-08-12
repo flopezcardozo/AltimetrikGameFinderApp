@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="js/fetchData.js"></script>
+
+</head>
+<body>
+    <header>
+        <img class="image-header" src="./assets/imagenes/GAMEFINDER.png"/>
+        <div class="search-container">
+            <img class="search-icon" src="./assets/Iconos main/search.svg">
+
+            <input type="text" style="width: 80%;border-color: transparent;" placeholder="Type game name or console">
+        </div>
+        <div class="login-container">
+            <div class="clickable-container">
+                <a class="logout-button">Logout <img class="logout-icon"src="/assets/Iconos main/logout.svg"></a>
+                
+            </div>
+            <a class="login-icon-container">
+                <img class="avatar" src="./assets/IconosLogin/avatar.svg">
+            </a>
+        </div>
+        <hr style="width: 90%;">
+    </header>
+
+    <div id="loader" class="loader"></div>
+    <div class="main-container" id="main-container" style="display: none;">
+        <div class="navigation-menu">
+            <a>Home</a>
+            <a>Reviews</a>
+            <a>New Releases</a>
+            <a>This Week</a>
+            <a>This month</a>
+            <a>Coming Soon</a>
+            <a>Last searches</a>
+            <a>Best of the year</a>
+        </div>
+        <div class="main-view">
+            <div class="view-title">
+                <h1 style="color:white;font-weight: bold;">New and trending</h1>
+                <h3 style="color:white;font-weight: 100;">Based on player counts and realease date</h3>
+            </div>
+            <div id="items-container" class="items-container"></div>
+        </div>
+    </div>
+</body>
+</html>
